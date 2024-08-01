@@ -1,0 +1,13 @@
+dataset_path: './data'
+batch_size: 64
+validation_split: 0.2
+num_epochs: 10
+learning_rate: 0.01
+log_filename: 'logs/training.log'
+early_stopping: true
+lr_scheduler: true
+save_checkpoint: 5
+data_augmentation: true
+evaluate_accuracy: true
+evaluate_f1: false
+tensorboard_logging: true
